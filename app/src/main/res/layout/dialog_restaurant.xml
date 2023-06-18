@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:src="@drawable/applergy_2"
+        android:id="@+id/imv_cover"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:scaleType="centerCrop"
+        android:background="#FFFFBB33"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Title"
+            android:textSize="28sp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:id="@+id/imv_vegetarian"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/vegetarian"
+                android:layout_marginHorizontal="5dp"></ImageView>
+            <ImageView
+                android:id="@+id/imv_dairy"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/dairy"
+                android:layout_marginHorizontal="5dp"></ImageView>
+            <ImageView
+                android:id="@+id/imv_gluten"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/gluten"
+                android:layout_marginHorizontal="5dp"></ImageView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Location"></TextView>
+
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.000 0.000"></TextView>
+    </LinearLayout>
+</LinearLayout>

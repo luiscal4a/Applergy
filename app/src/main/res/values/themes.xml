@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Applergy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#32A852</item>
+        <item name="colorPrimaryVariant">#5bc274</item>
+        <item name="colorOnPrimary">#c6e9cd</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FFA726</item>
+        <item name="colorSecondaryVariant">#FFCC80</item>
+        <item name="colorOnSecondary">#FFF3E0</item>
+    </style>
+
+    <style name="Theme.Applergy" parent="Base.Theme.Applergy" />
+</resources>

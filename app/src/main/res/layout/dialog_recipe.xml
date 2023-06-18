@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:src="@drawable/applergy_2"
+        android:id="@+id/imv_cover"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:scaleType="centerCrop"
+        android:background="#FFFFBB33"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Title"
+            android:textSize="28sp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:id="@+id/imv_vegetarian"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/vegetarian"
+                android:layout_marginHorizontal="5dp"></ImageView>
+            <ImageView
+                android:id="@+id/imv_dairy"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/dairy"
+                android:layout_marginHorizontal="5dp"></ImageView>
+            <ImageView
+                android:id="@+id/imv_gluten"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/gluten"
+                android:layout_marginHorizontal="5dp"></ImageView>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_preparation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Preparation: 10min"></TextView>
+
+
+        <TextView
+            android:id="@+id/tv_servings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Servings: 10"></TextView>
+
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat viverra justo. Cras vitae est et erat eleifend faucibus. Nunc placerat dapibus massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque non lacus a lorem maximus tincidunt quis eu magna."></TextView>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Ingredients"></TextView>
+
+        <TextView
+            android:id="@+id/tv_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Eggs\n -Water"></TextView>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Steps"></TextView>
+
+        <TextView
+            android:id="@+id/tv_steps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Preheat oven\n 2. Ready"></TextView>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
